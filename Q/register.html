@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Q穷游注册</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" >
+
+</head>
+<body>
+  <div class="main">
+      <div id="back-img">
+         <!--总的内容-->
+          <div class="login-total">
+              <!--登录和logo-->
+              <div class="logo">
+                  <img src="img/login/logo2.png">
+                  <span>注册</span>
+              </div>
+              <!--登录框框-->
+              <div class="login-section">
+                  <div class="login-in">
+                      <div class="login-form">
+                         <div class="q-select">
+                             <select name="nation">
+                                 <option value="中国">&nbsp;&nbsp;1808+</option>
+                                 <option value="中国" selected>&nbsp;&nbsp;86+</option>
+                                 <option value="中国">&nbsp;&nbsp;335+</option>
+                             </select>
+                         </div>
+                          <div class="form-phone">
+                              <label class="hide">手机号</label>
+                              <input type="text" placeholder="请输入登录用的手机号" id="phone" name="phone">
+                              <div class="input-error">
+                                  <span class="tip-error name-err"></span>
+                              </div>
+                          </div>
+                      </div>
+					  <div class="login-control">
+						 <input type="text" placeholder="取一个有辨识度的名字" title="用户" class="input" name="uname" id="uname">
+						 <div class="input-error">
+							  <span class="tip-error name-err"></span>
+						 </div>
+					  </div>
+					  <div class="login-control">
+						 <input type="password" placeholder="请输入登录密码" title="密码" class="input" id="upwd1">
+						 <div class="input-error">
+							<span class="tip-error pwd-err"></span>
+						 </div>
+					  </div>
+                      <div class="login-control">
+                          <input type="password" placeholder="确认登录密码" title="密码" class="input" id="upwd2">
+                          <div class="input-error">
+                              <span class="tip-error pwd-err"></span>
+                          </div>
+                      </div>
+                      <div class="login-control">
+							  <button type="submit" class="btn" id="login-btn">注册</button>
+                      </div>
+                      <div class="login-control">
+                          <div class="input-error">
+                              <span class="tip-error pwd-err button-error"></span>
+                          </div>
+                      </div>
+					  <div class="login-bottom">
+					    <span>已有穷游账号
+						  <a href="login.html">登录</a>
+						</span>
+						<span>同意
+						  <a href="javaScript:;">会员条款</a>和<a href="javaScript:;">免责声明</a>
+						</span>
+					  </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/register.js"></script>
+</body>
+</html>

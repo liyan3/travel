@@ -1,0 +1,42 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dd,dl,pre{
+  padding:0;
+  margin:0;
+  list-style:none;
+}
+a{
+  text-decoration:none;
+}
+a:hover{
+  cursor:pointer;
+}
+i,em{
+  font-weight:400;
+}
+body{
+  font:12px/1.5 "Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,Microsoft YaHei,\5b8b\4f53,sans-serif";
+  color: #323232;
+  text-align: left;
+}
+button,input,button{
+  padding:0;
+  margin:0;
+  color:#636363;
+  outline:0;
+  border:0;
+}
+.clear:after{
+  content:"";
+  clear:both;
+  display:block;
+}
+.main{
+  width:100%;
+  margin:0 auto;
+}
+.search-color{
+  color:#2ed685;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: 500;
+}

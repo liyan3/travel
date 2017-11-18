@@ -1,0 +1,181 @@
+.main{
+  min-width:960px;
+  margin:0 auto;
+  height:200px;
+}
+.main>#back-img{
+  min-width:1100px;
+  min-height:800px;
+  background-image:url("../img/login/login.jpg");
+  background-size:100% 100%;
+}
+#back-img .login-total{
+  width:380px;
+  margin:0 auto;
+  padding:60px 0;
+}
+#back-img .login-total .logo{
+  text-align:center;
+  height:46px;
+}
+#back-img .login-total .logo>span{
+  color:#fff;
+  font-size:24px;
+  text-shadow:0 0 4px rgba(0,0,0,.3);
+  vertical-align:bottom;
+}
+#back-img .login-total .logo>img{
+  width:125px;
+  height:100%;
+}
+.login-section{
+   width:100%;
+   height:420px;
+   box-shadow:0 0 10px rgba(0,0,0,0.3);
+   background:rgba(250,220,230,1);
+   margin:45px auto;
+}
+.login-section .login-in{
+  width:330px;
+  height:431px;
+  padding-top:30px;
+  position:relative;
+  margin:0 auto;
+}
+.q-select{
+  width:78px;
+  height:38px;
+  border:1px solid #d7d7d7;
+  background-color:#fff;
+}
+.q-select>select{
+  border:0;
+  font-size:15px;
+  margin-top:7px;
+}
+.hide{
+  display:none;
+}
+input{
+  box-sizing:border-box;
+}
+.login-form .form-phone input{
+  width:248px;
+  height:40px;
+  border:1px solid #d7d7d7;
+  line-height:40px;
+  padding:2px 7px;
+  font-size:14px;
+  position:absolute;
+  top:30px;
+  right:0;
+}
+.input-error{
+  height:30px;
+  line-height:30px;
+  margin-left:5px;
+  color:#ff654c;
+/*  display:none;*/
+}
+.login-section .login-in .vilde{
+  width:330px;
+  height:70px;
+}
+.vilde .vilde-all{
+    width:330px;
+    height:40px;
+}
+.login-section .login-in .vilde input{
+    width:200px;
+    height:40px;
+    border:1px solid #d7d7d7;
+    line-height:40px;
+    padding:2px 7px;
+    font-size:14px;
+}
+.login-section .login-in .vilde .vild-num{
+  /*width:120px;*/
+  /*padding-left:5px;*/
+  /*height:40px;*/
+  /*background:#fff;*/
+  /*text-align:center;*/
+  /*line-height:40px;*/
+  display:inline-block;
+}
+.can-form{
+    position:relative;
+}
+.can-form input{
+    position:absolute;
+    top:0;
+}
+.can-form canvas{
+    position: absolute;
+    top:0;
+    right:5px;
+}
+.vilde .vild-phone{
+  width:120px; 
+  display:inline-block;
+}
+
+.vilde .vild-phone>button{
+    width:120px;
+    padding-left:2px;
+    height:40px;
+	font-size:14px;   
+    background:#3f9f5f;
+	line-height:40px;
+    border: 0;
+    padding: 0 2px; 
+	outline:none;
+	color:#fff;
+	border-radius:4px;
+}
+.login-control .input{
+  width:100%;
+  height:40px;
+  box-sizing:border-box;
+  border:1px solid #d7d7d7;
+  line-height:40px;
+  padding:2px 7px;
+  font-size:14px;
+}
+.login-control .btn{
+  width:100%;
+  height:36px;
+  line-height:36px;
+  font-size:14px;
+  border-radius:4px;
+  color:#fff;
+  background-color:#3f9f5f;
+  border:0;
+  /* padding:2px; */
+}
+.login-bottom{
+    height: 20px;
+    line-height: 20px;
+    color: #959595;
+    font-size: 14px;
+	margin-top:10px;
+	padding:0 5px;
+}
+.login-bottom>span>a{
+  color:#3f9f5f;
+}
+.login-bottom>span>a:hover{
+  text-decoration:underline;
+}
+.login-bottom>span:first-child{
+  float:left;
+}
+.login-bottom>span:last-child{
+  float:right;
+}
+.login-form .form-phone .error{
+    border:1px solid #ff3226;
+}
+.login-control .button-error{
+    text-align: center;
+    margin:0 auto;
+}

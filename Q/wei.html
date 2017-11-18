@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>穷游--目的地</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/wei.css">
+</head>
+<body>
+<div class="main">
+    <header id="header"></header>
+   <div class="banner-img">
+      <div class="inner">
+          <div class="val">你好，世界!</div>
+          <div class="sou-input">
+              <input type="text" placeholder="搜索国家、城市目、的地">
+              <button type="button" class="font"><i class="fa fa-search"></i>搜索</button>
+          </div>
+          <div class="about-img">
+                 <div class="font">
+                     <span class="carimg">
+                         <a href="#">飞欧娜树</a>&nbsp;&nbsp;拍摄于
+                         <a href="#">西班牙</a>
+                     </span>
+                     <b>！</b>
+                 </div>
+                 <span class="font">关于图片</span>
+          </div>
+      </div>
+   </div>
+    <!--热门城市推荐-->
+    <div class="city">
+        <h3 class="city-title">热门城市推荐</h3>
+        <div class="city-tab">
+            <ul class="tab clear" data-toggle="city">
+                <li class="hover">热门推荐</li>
+                <li>日韩、港澳台</li>
+                <li>东南亚及亚洲地区</li>
+                <li>欧洲</li>
+                <li>大洋洲&nbsp;北美</li>
+                <li>非洲北美</li>
+            </ul>
+        </div>
+        <div class="city-cards clear">
+            <ul>
+                <li>
+                    <p>全球Top10城市</p>
+                    <div class="cards-site">
+                         <a href="#">东京</a>
+                         <a href="#">曼谷</a>
+                         <a href="#">香港</a>
+                         <a href="#">台北 </a>
+                         <a href="#">新加坡</a>
+                         <a href="#">巴黎</a>
+                         <a href="#">罗马</a>
+                         <a href="#">伦敦</a>
+                         <a href="#">首尔</a>
+                         <a href="#">洛杉矶</a>
+                    </div>
+                </li>
+                <li>
+                    <p>免签及落地签最热旅行地</p>
+                    <div class="cards-site">
+                         <a href="#">济州岛</a>
+                         <a href="#">印度尼西亚</a>
+                         <a href="#">泰国</a>
+                         <a href="#">塞班岛 </a>
+                         <a href="#">摩洛哥</a>
+                         <a href="#">卡塔尔</a>
+                         <a href="#">毛里求斯</a>
+                         <a href="#">柬埔寨</a>
+                         <a href="#">厄瓜多尔</a>
+                    </div>
+                </li>
+                <li>
+                    <p>热门海岛</p>
+                    <div class="cards-site">
+                         <a href="#">塞班岛</a>               
+                         <a href="#">长滩岛</a>
+                         <a href="#">马尔代夫</a>
+                         <a href="#">沙巴 </a>
+                         <a href="#">普吉岛</a>
+                         <a href="#">巴厘岛</a>
+                         <a href="#">芽庄</a>
+                         <a href="#">帕劳</a>
+                         <a href="#">冲绳市</a>
+                    </div>
+                </li>
+            </ul>
+            <ul  class="active">
+                <li>
+                    <p>港澳台</p>
+                    <div class="cards-site">
+                        <a href="#">香港</a>
+                        <a href="#">澳门</a>
+                        <a href="#">台北</a>
+                        <a href="#">垦丁</a>
+                        <a href="#">花莲</a>
+                        <a href="#">高雄市</a>
+                        <a href="#">台中市</a>
+                        <a href="#">九份</a>
+                        <a href="#">台南</a>
+                        <a href="#">淡水</a>
+                        <a href="#">宜兰</a>
+                    </div>
+                </li>
+                <li>
+                    <p>日本</p>
+                    <div class="cards-site">
+                        <a href="#">东京</a>
+                        <a href="#">大阪</a>
+                        <a href="#">京都</a>
+                        <a href="#">冲绳</a>
+                        <a href="#">北海道</a>
+                        <a href="#">名古屋</a>
+                        <a href="#">奈良</a>
+                        <a href="#">札幌</a>
+                        <a href="#">富士山</a>
+                        <a href="#">箱根</a>
+                        <a href="#">镰仓</a>
+                        <a href="#">神户</a>
+                    </div>
+                </li>
+                <li>
+                    <p>韩国</p>
+                    <div class="cards-site">
+                        <a href="#">首尔</a>
+                        <a href="#">济州岛</a>
+                        <a href="#">釜山</a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="active">
+                <li>
+                    <p>泰国</p>
+                    <div class="cards-site">
+                        <a href="#">曼谷</a>
+                        <a href="#">普吉岛</a>
+                        <a href="#">清迈</a>
+                        <a href="#">苏梅岛</a>
+                        <a href="#">芭堤雅</a>
+                        <a href="#">甲米</a>
+                        <a href="#">华欣</a>
+                        <a href="#">皮皮岛</a>
+                        <a href="#">泰国象岛</a>
+                        <a href="#">拜县</a>
+                    </div>
+                </li>
+                <li>
+                    <p>新加坡</p>
+                    <div  class="cards-site">
+                        <a href="#">新加坡</a>
+                    </div>
+                </li>
+                <li>
+                    <p>越南</p>
+                    <div  class="cards-site">
+                        <a href="#">芽庄</a>
+                        <a href="#">岘港</a>
+                        <a href="#">胡志明市</a>
+                        <a href="#">河内</a>
+                        <a href="#">美奈</a>
+                        <a href="#">大叻</a>
+                        <a href="#">富国岛</a>
+                        <a href="#">下龙湾</a>
+                    </div>
+                </li>
+                <li>
+                    <p>马来西亚</p>
+                    <div  class="cards-site">
+                        <a href="#">沙巴</a>
+                        <a href="#">吉隆坡</a>
+                        <a href="#">槟城</a>
+                        <a href="#">亚庇</a>
+                        <a href="#">兰卡威</a>
+                        <a href="#">马六甲</a>
+                        <a href="#">仙本那</a>
+                    </div>
+                </li>
+                <li>
+                    <p>印度尼西亚</p>
+                    <div  class="cards-site">
+                        <a href="#">巴厘岛</a>
+                        <a href="#">美娜多</a>
+                        <a href="#">乌布德</a>
+                    </div>
+                </li>
+                <li>
+                    <p>菲律宾</p>
+                    <div  class="cards-site">
+                        <a href="#">长滩岛</a>
+                        <a href="#">马尼拉</a>
+                        <a href="#">薄荷岛</a>
+                        <a href="#">杜马盖地</a>
+                        <a href="#">宿雾市</a>
+                    </div>
+                </li>
+                <li>
+                    <p>亚洲其他</p>
+                    <div  class="cards-site">
+                        <a href="#">迪拜</a>
+                         <a href="#">马尔代夫</a>
+                         <a href="#">阿布扎比</a>
+                         <a href="#">耶路撒冷</a>
+                         <a href="#">基什岛</a>
+                         <a href="#">加德满都</a>
+                         <a href="#">德里</a>
+                         <a href="#">仰光</a>
+                         <a href="#">多哈</a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="active">
+                <li>
+                    <p>意大利</p>
+                    <div class="cards-site">
+                        <a href="#">罗马</a>
+                        <a href="#">佛罗伦萨</a>
+                        <a href="#">威尼斯</a>
+                        <a href="#">米兰</a>
+                        <a href="#">五渔村</a>
+                        <a href="#">西西里岛</a>
+                        <a href="#">锡耶纳</a>
+                        <a href="#">维罗纳</a>
+                    </div>
+                </li>
+                <li>
+                    <p>英国</p>
+                    <div  class="cards-site">
+                        <a href="#">伦敦</a>
+                        <a href="#">爱丁堡</a>
+                        <a href="#">剑桥</a>
+                        <a href="#">牛津</a>
+                        <a href="#">英国湖区</a>
+                        <a href="#">曼彻斯特</a>
+                        <a href="#">巴斯</a>
+                        <a href="#">约克</a>
+                        <a href="#">苏格兰</a>
+                    </div>
+                </li>
+                <li>
+                    <p>德国</p>
+                    <div  class="cards-site">
+                        <a href="#">慕尼黑</a>
+                        <a href="#">法兰克福</a>
+                        <a href="#">柏林</a>
+                        <a href="#">科隆</a>
+                        <a href="#">海德堡</a>
+                        <a href="#">汉堡</a>
+                        <a href="#">斯图加特</a>
+                        <a href="#">杜塞尔多夫</a>
+                        <a href="#">纽伦堡</a>
+                        <a href="#">德累斯顿</a>
+                    </div>
+                </li>
+                <li>
+                    <p>法国</p>
+                    <div  class="cards-site">
+                        <a href="#">巴黎</a>
+                        <a href="#">尼斯</a>
+                        <a href="#">普罗旺斯</a>
+                        <a href="#">阿维尼翁</a>
+                        <a href="#">马赛</a>
+                        <a href="#">里昂</a>
+                        <a href="#">波尔多</a>
+                        <a href="#">斯特拉斯堡</a>
+                        <a href="#">戛纳</a>
+                    </div>
+                </li>
+                <li>
+                    <p>西班牙</p>
+                    <div  class="cards-site">
+                        <a href="#">巴塞罗那</a>
+                        <a href="#">马德里</a>
+                        <a href="#">塞维利亚</a>
+                        <a href="#">格拉纳达</a>
+                        <a href="#">托莱多</a>
+                        <a href="#">瓦伦西亚</a>
+                        <a href="#">西班牙龙达</a>
+                        <a href="#">马略卡岛</a>
+                    </div>
+                </li>
+                <li>
+                    <p>瑞士</p>
+                    <div  class="cards-site">
+                        <a href="#">苏黎世</a>
+                        <a href="#">卢塞恩</a>
+                        <a href="#">因特拉肯</a>
+                        <a href="#">日内瓦</a>
+                        <a href="#">伯尔尼</a>
+                        <a href="#">洛桑</a>
+                    </div>
+                </li>
+                <li>
+                    <p>奥地利</p>
+                    <div  class="cards-site">
+                        <a href="#">维也纳</a>
+                        <a href="#">萨尔茨堡</a>
+                        <a href="#">哈尔施塔特</a>
+                        <a href="#">因斯布鲁克</a>
+                    </div>
+                </li>
+                <li>
+                    <p>俄罗斯</p>
+                    <div  class="cards-site">
+                        <a href="#">莫斯科</a>
+                        <a href="#">贝加尔湖</a>
+                        <a href="#">圣彼得堡</a>
+                        <a href="#">伊尔库茨克</a>
+                        <a href="#">符拉迪沃斯托克(海参崴)</a>
+                    </div>
+                </li>
+                <li>
+                    <p>希腊</p>
+                    <div  class="cards-site">
+                        <a href="#">圣托里尼</a>
+                        <a href="#">雅典</a>
+                        <a href="#">克里特岛</a>
+                        <a href="#">米科诺斯岛</a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="active">
+                <li>
+                    <p>澳大利亚</p>
+                    <div class="cards-site">
+                        <a href="#">墨尔本</a>
+                        <a href="#">悉尼</a>
+                        <a href="#">黄金海岸</a>
+                        <a href="#">布里斯班</a>
+                        <a href="#">凯恩斯</a>
+                        <a href="#">珀斯</a>
+                        <a href="#">塔斯马尼亚岛</a>
+                    </div>
+                </li>
+                <li>
+                    <p>新西兰</p>
+                    <div  class="cards-site">
+                        <a href="#">奥克兰</a>
+                        <a href="#">皇后镇</a>
+                        <a href="#">基督城</a>
+                        <a href="#">新西兰南岛</a>
+                    </div>
+                </li>
+                <li>
+                    <p>美国</p>
+                    <div  class="cards-site">
+                        <a href="#">洛杉矶</a>
+                        <a href="#">纽约</a>
+                        <a href="#">塞班岛</a>
+                        <a href="#">旧金山</a>
+                        <a href="#">拉斯维加斯</a>
+                        <a href="#">圣迭戈</a>
+                        <a href="#">波士顿</a>
+                        <a href="#">华盛顿</a>
+                        <a href="#">黄石国家公园</a>
+                        <a href="#">夏威夷</a>
+                        <a href="#">西雅图</a>
+                        <a href="#">关岛</a>
+                    </div>
+                </li>
+                <li>
+                    <p>加拿大</p>
+                    <div  class="cards-site">
+                        <a href="#">温哥华</a>
+                        <a href="#">班夫国家公园</a>
+                        <a href="#">多伦多</a>
+                        <a href="#">蒙特利尔</a>
+                        <a href="#">加拿大尼亚加拉瀑布城</a>
+                    </div>
+                </li>
+                <li>
+                    <p>印度尼西亚</p>
+                    <div  class="cards-site">
+                        <a href="#">巴厘岛</a>
+                        <a href="#">美娜多</a>
+                        <a href="#">乌布德</a>
+                    </div>
+                </li>
+                <li>
+                    <p>其他</p>
+                    <div  class="cards-site">
+                        <a href="#">帕劳</a>
+                        <a href="#">坎昆</a>
+                        <a href="#">墨西哥城</a>
+                        <a href="#">哈瓦那</a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="active">
+                <li>
+                    <p>摩洛哥</p>
+                    <div class="cards-site">
+                        <a href="#">卡萨布兰卡</a>
+                        <a href="#">马拉喀什</a>
+                        <a href="#">菲斯</a>
+                        <a href="#">舍夫沙万</a>
+                    </div>
+                </li>
+                <li>
+                    <p>埃及</p>
+                    <div  class="cards-site">
+                        <a href="#">开罗</a>
+                        <a href="#">卢克索</a>
+                    </div>
+                </li>
+                <li>
+                    <p>南非</p>
+                    <div  class="cards-site">
+                        <a href="#">开普敦</a>
+                        <a href="#">约翰内斯堡</a>
+                    </div>
+                </li>
+                <li>
+                    <p>肯尼亚</p>
+                    <div  class="cards-site">
+                        <a href="#">内罗毕</a>
+                        <a href="#">马赛马拉国家保护区</a>
+                    </div>
+                </li>
+                <li>
+                    <p>阿根廷</p>
+                    <div  class="cards-site">
+                        <a href="#">布宜诺斯艾利斯</a>
+                        <a href="#">乌斯怀亚</a>
+                        <a href="#">埃尔卡拉法特</a>
+                    </div>
+                </li>
+                <li>
+                    <p>毛里求斯</p>
+                    <div  class="cards-site">
+                        <a href="#">毛里求斯</a>
+                    </div>
+                </li>
+                <li>
+                    <p>智利</p>
+                    <div  class="cards-site">
+                        <a href="#">圣地亚哥</a>
+                        <a href="#">复活节岛</a>
+                    </div>
+                </li>
+                <li>
+                    <p>巴西</p>
+                    <div  class="cards-site">
+                        <a href="#">里约热内卢</a>
+                        <a href="#">圣保罗</a>
+                        <a href="#">萨尔瓦多</a>
+                    </div>
+                </li>
+                <li>
+                    <p>玻利维亚</p>
+                    <div  class="cards-site">
+                        <a href="#">科伦坡</a>
+                        <a href="#">斯里兰卡康堤</a>
+                    </div>
+                </li>
+                <li>
+                    <p>厄尔多瓜</p>
+                    <div  class="cards-site">
+                        <a href="#">加拉帕戈斯群岛</a>
+                        <a href="#">基多</a>
+                        <a href="#">瓜亚基尔</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="city-all">
+            <a href="#">查看全部国家</a>
+        </div>
+    </div>
+    <!--主体目的地-->
+    <div class="city des">
+        <h3 class="city-title">主体目的地</h3>
+        <div class="city-tab">
+            <ul class="tab clear" data-toggle="des">
+                <li class="hover">俯瞰城市</li>
+                <li>怀旧时光</li>
+                <li>魅力夜色</li>
+                <li>神秘遗址</li>
+                <li>跳蚤市场</li>
+                <li>最爱小镇</li>
+            </ul>
+        </div>
+        <div class="city-des clear" data-des="des">
+            <ul class="clear">
+               <li class="typ1">
+                   <img src="img/wei/des/a1.jpg" alt="洛克菲勒观景台">
+                   <a href="#" class="inner-des">
+                       <h4>洛克菲勒观景台</h4>
+                       <div>
+                           这里是欣赏曼哈顿天际线的绝佳位置，观景台一共有三层，不仅可以将帝国大厦、
+                           新世贸中心大楼等摩天大楼尽收眼底，向北可鸟瞰中央公园，甚至可以看到自由女神
+                           像的绰约风姿。
+                       </div>
+                   </a>
+               </li>
+                <li>
+                    <img src="img/wei/des/a2.png" alt="碎片大厦">
+                     <a href="#"  class="inner-des">
+                        <h4>碎片大厦</h4>
+                        <div>
+                            天气晴朗的日子里，在碎片大厦观景台
+                            可以将伦敦市景一收眼底，伦敦眼、大本钟、泰晤士河……
+                            只描摹出城市轮廓的夕阳景色更是出众。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/a3.jpg" alt="太平山">
+                    <a href="#"  class="inner-des">
+                        <h4>太平山</h4>
+                        <div>
+                            太平山是香港岛最高山峰，
+                            也是俯瞰香港的必到处，太平山顶可饱览维
+                            多利亚港全貌和薄扶林水塘的自然美景。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/a4.png" alt="六本木新城">
+                    <a href="#"  class="inner-des">
+                        <h4>六本木新城</h4>
+                        <div>
+                            六本木Hills建成于2003年，54层楼的玻璃
+                            大厦内有200多家店铺，餐饮、购物、娱乐一应俱全，
+                            很多日本人将它当做六本木的代名词。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/a5.jpg" alt="米开朗基罗广场">
+                    <a href="#"  class="inner-des">
+                        <h4>米开朗基罗广场</h4>
+                        <div>
+                            米开朗基罗广场位于佛罗伦萨市区南端的高地上，
+                            广场雄据半山腰，坐视整个佛罗伦萨城及远处起伏不断的丘陵，
+                            气势非凡，风光无限。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/a6.png" alt="象山">
+                    <a href="#"  class="inner-des">
+                        <h4>象山</h4>
+                        <div>
+                            山不高，但前无屏障，台北盆地一览无遗，
+                            不仅是登高眺望的好据点，也是拍摄101高楼的绝佳地点。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/a7.jpg" alt="蒙帕纳斯大楼">
+                    <a href="#"  class="inner-des">
+                        <h4>蒙帕纳斯大楼</h4>
+                        <div>
+                            蒙帕纳斯大楼(又称蒙巴纳斯高楼)建于1972年，
+                            共59层，高209米，是巴黎市区除埃菲尔铁塔外最高的建筑，
+                            也是市区唯一的一座摩天大楼。
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="clear active">
+                <li class="typ1">
+                    <img src="img/wei/des/b1.jpg" alt="京都">
+                    <a href="#" class="inner-des">
+                        <h4>京都</h4>
+                        <div>
+                            春樱秋枫，神社古庙，古道旁，再现平安时代的风华盛景。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/b2.jpg" alt="亚兹德">
+                    <a href="#"  class="inner-des">
+                        <h4>亚兹德</h4>
+                        <div>
+                            丝绸之路途中的千年驿站，沙漠中的古城。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/b3.jpg" alt="马丘比丘">
+                    <a href="#"  class="inner-des">
+                        <h4>马丘比丘</h4>
+                        <div>
+                            神秘的印加帝国遗迹。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/b4.jpg" alt="蒲甘">
+                    <a href="#"  class="inner-des">
+                        <h4>蒲甘</h4>
+                        <div>
+                            千塔之城，每一座佛塔都是一段时光的记忆。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/b5.jpg" alt="马六甲">
+                    <a href="#"  class="inner-des">
+                        <h4>马六甲</h4>
+                        <div>
+                            追寻郑和的足迹。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/b6.jpg" alt="罗滕堡">
+                    <a href="#"  class="inner-des">
+                        <h4>罗滕堡</h4>
+                        <div>
+                            保存完好的中世纪风貌，保存完好的德国浪漫之路。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/b7.jpg" alt="庆州">
+                    <a href="#"  class="inner-des">
+                        <h4>庆州</h4>
+                        <div>
+                            新罗时代的金城。
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="clear active">
+                <li class="typ1">
+                    <img src="img/wei/des/c1.jpg" alt="东京夜景">
+                    <a href="#" class="inner-des">
+                        <h4>东京夜景</h4>
+                        <div>
+                            电影里的东京夜色令人无限向往，切身实地去感受东京的夜。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/c2.jpg" alt="光影米兰">
+                    <a href="#"  class="inner-des">
+                        <h4>光影米兰</h4>
+                        <div>
+                            光与影的曼妙结合，在米兰的夜晚上演。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/c3.jpg" alt="曼谷之夜">
+                    <a href="#"  class="inner-des">
+                        <h4>曼谷之夜</h4>
+                        <div>
+                            穿着人字拖，逛逛夜市，曼谷总是给人一舒服的感觉。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/c4.jpg" alt="夜行首尔">
+                    <a href="#"  class="inner-des">
+                        <h4>夜行首尔</h4>
+                        <div>
+                            夜晚的明洞，繁忙又热闹，首尔的独特也在其中。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/c5.jpg" alt="不夜城香港">
+                    <a href="#"  class="inner-des">
+                        <h4>不夜城香港</h4>
+                        <div>
+                            香港是个不夜城，夜宵美味，酣畅淋漓，夜不停息。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/c6.jpg" alt="俯瞰夜巴黎">
+                    <a href="#"  class="inner-des">
+                        <h4>俯瞰夜巴黎</h4>
+                        <div>
+                            凯旋门、卢浮宫、埃菲尔铁塔，俯瞰巴黎夜色。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/c7.jpg" alt="纽约酒吧">
+                    <a href="#"  class="inner-des">
+                        <h4>纽约酒吧</h4>
+                        <div>
+                            夜幕降临，你可以在酒吧中叫上三五好友一起嘬上一杯鸡尾酒或者啤酒，洗去上班或旅行的疲惫。
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="clear active">
+                <li class="typ1">
+                    <img src="img/wei/des/d1.jpg" alt="纳斯卡线遗址">
+                    <a href="#" class="inner-des">
+                        <h4>纳斯卡线遗址</h4>
+                        <div>
+                            存在了2000年的谜局，这些被镶刻在大地之上的神秘线条，至今仍无人能破解
+                            ——究竟是谁创造了纳斯卡线条、它们又是怎样创造出来的、神秘线条背后意味着什么？
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/d2.jpg" alt="狮身人面像">
+                    <a href="#"  class="inner-des">
+                        <h4>狮身人面像</h4>
+                        <div>
+                            狮身人面像简直就是三大金字塔的孪生兄弟，人们想起金字塔，
+                            紧接着就会想起狮身人面像。狮身人面像又叫斯芬克斯，传说中是巨人和蛇妖所生。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/d3.jpg" alt="图卢姆玛雅遗址">
+                    <a href="#"  class="inner-des">
+                        <h4>图卢姆玛雅遗址</h4>
+                        <div>
+                            位于坎昆约130公里的加勒比海，是14世纪玛雅文化末期最繁荣的宗教都市遗迹。有高达3.3米高的石墙环绕。古城里的建筑都是用石头砌成的，雕刻着图案花纹。
+                            据说，这是迄今墨西哥保存最好的一座玛雅和托尔特克人的古城。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/d4.jpg" alt="马丘比丘">
+                    <a href="#"  class="inner-des">
+                        <h4>马丘比丘</h4>
+                        <div>
+                            神秘的印加帝国遗迹。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/d5.jpg" alt="奇琴伊察">
+                    <a href="#"  class="inner-des">
+                        <h4>奇琴伊察</h4>
+                        <div>
+                            奇琴伊察古城遗址是最出名的、也是修复的最好的尤卡坦玛雅遗址，
+                            每个人都会伸长脖子看这个世界第七大奇观。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/d6.jpg" alt="巨石阵">
+                    <a href="#"  class="inner-des">
+                        <h4>巨石阵</h4>
+                        <div>
+                            在一大片草地中，这些横着竖着的大石头看似毫无规律的摆放，
+                            确是人类史的一大奇迹，考古学家认为其建于公元前3000年左右，
+                            这些距今已经有4300年的巨石是如何搬运和抬放依旧是迷。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/d7.jpg" alt="复活节岛">
+                    <a href="#"  class="inner-des">
+                        <h4>复活节岛</h4>
+                        <div>
+                            据人们推测，这些被称为摩艾的石雕像是岛上古老祭拜仪式的一部分，
+                            它们制成于公元1250年至1500年之间。
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="clear active">
+                <li class="typ1">
+                    <img src="img/wei/des/e1.jpg" alt="波盖利亚市场">
+                    <a href="#" class="inner-des">
+                        <h4>波盖利亚市场</h4>
+                        <div>
+                            各类新旧物件和手工品，是欧洲最古老的市场之一。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/e2.png" alt="霍巴特萨拉曼加集市">
+                    <a href="#"  class="inner-des">
+                        <h4>霍巴特萨拉曼加集市</h4>
+                        <div>
+                            各种精美玻璃器皿和陶器皮具，还能欣赏街头艺人的音乐。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/e3.jpg" alt="首尔传统跳蚤市场">
+                    <a href="#"  class="inner-des">
+                        <h4>首尔传统跳蚤市场</h4>
+                        <div>
+                            韩国历史最为悠久的跳蚤市集，物品故事多。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/e4.jpg" alt="罗马Porta Portese跳蚤市场">
+                    <a href="#"  class="inner-des">
+                        <h4>罗马Porta Portese跳蚤市场</h4>
+                        <div>
+                            二手货的天堂，小到针头线脑大到实木家具。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/e5.jpg" alt="雅典Monastiraki跳蚤市场">
+                    <a href="#"  class="inner-des">
+                        <h4>雅典Monastiraki跳蚤市场</h4>
+                        <div>
+                            稀有塑胶唱片、军靴、旧书和各色古玩宝贝应有尽有。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/e6.jpg" alt="巴黎圣旺跳蚤市场">
+                    <a href="#"  class="inner-des">
+                        <h4>巴黎圣旺跳蚤市场</h4>
+                        <div>
+                            巴黎二手市场的鼻祖，欧洲vintage文化发源地。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/e7.jpg" alt="旧金山金银岛">
+                    <a href="#"  class="inner-des">
+                        <h4>旧金山金银岛</h4>
+                        <div>
+                            对于艺术家、收藏夹、设计师和匠人们，这里简直就是狂欢的圣地。
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="clear active">
+                <li class="typ1">
+                    <img src="img/wei/des/f1.jpg" alt="比尔森">
+                    <a href="#" class="inner-des">
+                        <h4>比尔森</h4>
+                        <div>
+                            以啤酒出名的小镇，在这里可以品尝正宗的捷克啤酒。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/f2.jpg" alt="富士山">
+                    <a href="#"  class="inner-des">
+                        <h4>富士山</h4>
+                        <div>
+                            地方虽然不大，但却给人一种一尘不染的脱俗感。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/f3.jpg" alt="五渔村">
+                    <a href="#"  class="inner-des">
+                        <h4>五渔村</h4>
+                        <div>
+                            依山而建的五颜六色的房子很美，海水很蓝很干净。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/f4.png" alt="洛迦诺">
+                    <a href="#"  class="inner-des">
+                        <h4>洛迦诺</h4>
+                        <div>
+                            位于瑞士东南部提契诺州的马焦雷湖畔，宛如童话世界。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/f5.jpg" alt="高威">
+                    <a href="#"  class="inner-des">
+                        <h4>高威</h4>
+                        <div>
+                            一个安静祥和，却不失活力元素，生活节奏慢的地方。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/f6.jpg" alt="布雷根茨">
+                    <a href="#"  class="inner-des">
+                        <h4>布雷根茨</h4>
+                        <div>
+                            湖光山色，景色不错，紧挨瑞士德国，乃交通要塞。
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <img src="img/wei/des/f7.jpg" alt="拉姆绍">
+                    <a href="#"  class="inner-des">
+                        <h4>拉姆绍</h4>
+                        <div>
+                            非常漂亮的森林小镇，尤其是在阳光下，这里湖水的颜色是有层次的。
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  <footer id="footer"></footer>
+</div>
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/wei.js"></script>
+</body>
+</html>

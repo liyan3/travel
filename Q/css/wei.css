@@ -1,0 +1,251 @@
+body{
+    font-family: PingFang SC,Helvetica Neue,Helvetica,Avenir Next,Avenir,Hiragino Sans GB,Microsoft YaHei,微软雅黑,STHeiti,WenQuanYi Micro Hei,SimSun,sans-serif!important;
+}
+*{
+    box-sizing:border-box;
+}
+#header{
+    background-color:#323232;
+    width:100%;
+    height:30px;
+    z-index:100;
+}
+#header ul li a{
+    font-size:14px;
+}
+.main_header>ul>li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 16px;
+    color: #fff;
+}
+.main_header #logo img{
+    width: 58px;
+    height: 22px;
+    margin-top: 6px;
+}
+#a1 .fade ul{
+    top:30px;
+}
+#d3 ul li{
+    line-height:30px;
+}
+#head_search{
+    height: 24px;
+    top: 3px;
+}
+.input_box button{
+    color:#c7aeae
+}
+
+/*固定图片的位置banner**
+************/
+.banner-img{
+    background-image:url("../img/wei/wei.jpg");
+    background-size:cover;
+    height:500px;
+    background-position-y: 69%;
+    background-color: #efefef;
+}
+/*图position:relative;片上面的字体及搜索框*/
+.inner{
+   text-align:center;
+}
+.val{
+    font-size:56px;
+    font-weight:700;
+    color:#fff;
+    text-align:center;
+    padding-top:160px;
+}
+.sou-input{
+    width:760px;
+    height:60px;
+    text-align:center;
+    margin:0 auto;
+    margin-top:20px;
+}
+.sou-input>input{
+    width:620px;
+    height:60px;
+    border:1px solid transparent;
+    background:#fff;
+    padding:10px 20px;
+    line-height:60px;
+    font-size:18px;
+    border-radius:4px 0 0 4px;
+    float:left;
+}
+/*字体颜色为白色*/
+.font{
+   color:#fff;
+}
+.sou-input>button{
+    float:left;
+    width:140px;
+    height:60px;
+    font-size:18px;
+    background-color:#28b76c;
+    border:1px solid #28b76c;
+    -webkit-border-radius:0 4px 4px 0;
+    -moz-border-radius:0 4px 4px 0;
+    border-radius:0 4px 4px 0;
+}
+/*关于图片*/
+.about-img{
+    margin-top:126px;
+    float:right;
+    margin-right:219px;
+}
+.about-img a{
+    color:#fff;
+}
+.about-img a:hover{
+    text-decoration:underline;
+}
+.about-img>div{
+    display:inline-block;
+    background-color:rgba(0,0,0,0.7);
+    border-radius:4px;
+    height:16px;
+    line-height:18px;
+}
+.carimg{
+    display:none;
+}
+.about-img>span:hover .carimg{
+    display:block;
+}
+
+/*****热门城市推荐******
+******/
+.city{
+    margin:70px auto 0;
+    width:980px;
+}
+.city-title{
+    color:#000000;
+    text-align:center;
+    margin-bottom:30px;
+    font-size:24px;
+}
+.city-tab{
+    margin-bottom:40px;
+}
+.tab{
+    text-align:center;
+    font-size:0;/**去掉li中间的一个字符的宽度（inline-black引起的）**/
+    letter-spacing: -4px;/**Safari浏览器兼容**/
+}
+.tab>li{
+    display:inline-block;
+    height:33px;
+    line-height:28px;
+    border-bottom:1px solid #e5e5e5;
+    font-size:18px;
+    cursor:pointer;
+    color:#929292;
+    padding-right:50px;
+    letter-spacing:normal; /**Safari浏览器兼容与上ul结合使用**/
+}
+.tab>li:hover,.tab>li.hover{
+    border-bottom:2px solid #28b76c;
+}
+/*具体的城市*/
+.city-cards{
+    padding-bottom:10px;
+}
+.city-cards>ul>li{
+    /*display:inline-block;*/
+    width:306px;
+    margin-right:15px;
+    margin-bottom:30px;
+    float:left;
+}
+.city-cards>ul>li>p{
+    font-size:16px;
+    color:#444;
+    margin-bottom:14px;
+}
+.cards-site>a{
+    color:#000;
+    font-size:14px;
+    font-weight:500;
+    padding-right:15px;
+}
+.cards-site>a:hover{
+    color:#28b76c;
+}
+/*查看更多*/
+.city-all{
+    text-align:center;
+    margin-top:10px;
+}
+.city-all>a{
+    display:inline-block;
+    width:212px;
+    height:48px;
+    line-height:48px;
+    border:1px solid #28b76c;
+    color:#28b76c;
+    font-size:18px;
+}
+.city-all>a:hover{
+    background:#28b76c;
+    color:#fff;
+}
+.active{
+    display:none;
+}
+/*主要目的地****
+************/
+.des{
+    margin-bottom:100px;
+}
+.city-des{
+    width:980px;
+    height:400px;
+}
+.city-des>ul>li{
+    width:233px;
+    height:194px;
+    margin:0 0 12px 12px;
+    background:#ddd;
+    float:left;
+    position:relative;
+}
+.city-des>ul>li img{
+    width:100%;
+    height:194px;
+}
+.city-des>ul>li.typ1,.city-des>ul>li.typ1 img{
+    height:400px;
+}
+/*第一张图片的鼠标移动效果*/
+li.typ1 .inner-des{
+    height: 14%;
+    transition:height .6s ease-in-out;
+}
+.city-des>ul>li:hover .inner-des{
+    height:100%; /*移到父元素上才可给子元素添加*/
+    background-color:rgba(0,0,0,0.4);
+    width:100%;
+}
+a.inner-des{
+    color:#fff;
+    position:absolute;
+    bottom:0;
+    left:0;
+    padding:20px;
+    height:28%;
+    overflow:hidden;
+    transition:height .5s ease;
+}
+.inner-des>h4{
+    font-size:16px;
+    border-bottom:1px solid #ddd;
+    margin-bottom:15px;
+    height:40px;
+    line-height:20px;
+}
